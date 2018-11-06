@@ -1,14 +1,14 @@
 {
-  "name": "an-array-of-english-words",
+  "name": "an-array-of-dutch-words",
   "version": "0.0.0-development",
-  "description": "An array of ~275,000 English words. Works in node and browsers.",
+  "description": "An array of ~164 000 Dutch words. Works in node and browsers.",
   "main": "words.json",
   "bin": {
     "words": "./cli.js",
     "an-array-of-english-words": "./cli.js"
   },
-  "repository": "https://github.com/words/an-array-of-english-words",
-  "author": "zeke",
+  "repository": "https://github.com/evanzummeren/an-array-of-dutch-words",
+  "author": "",
   "license": "MIT",
   "scripts": {
     "build": "node build.js > words.json",

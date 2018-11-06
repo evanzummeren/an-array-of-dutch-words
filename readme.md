@@ -1,20 +1,24 @@
-# an-array-of-english-words
+# an-array-of-dutch-words
 
-An array of ~275,000 English words derived from [the Letterpress word
-list](https://github.com/atebits/Words). Works with node and browserify.
+This is a Dutch fork of [an-array-of-english-words](https://github.com/words/an-array-of-english-words) 
+by [Zeke](https://github.com/zeke).
+
+An array of ~164,000 Dutch words derived from [the Opentaal word
+list](https://www.opentaal.org). Works with node and browserify.
+
 
 ## Programmatic Usage
 
 To use the module in Javascript code, install it locally:
 
 ```sh
-npm install an-array-of-english-words --save
+npm install an-array-of-dutch-words --save
 ```
 
 Then:
 
 ```js
-const words = require('an-array-of-english-words')
+const words = require('an-array-of-dutch-words')
 const funWords = words.filter(word => word.match(/^fun/i))
 console.log(funWords)
 ```
@@ -24,7 +28,7 @@ console.log(funWords)
 There's a CLI that prints all words to STDOUT. Install it globally:
 
 ```sh
-npm i -g an-array-of-english-words
+npm i -g an-array-of-dutch-words
 ```
 
 Run `words` to print all the words to stdout:
